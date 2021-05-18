@@ -134,3 +134,17 @@ VALUES
   ('Figma', 'web design', 'python.jpg'),
   ('JavaScript', 'Development', 'javascript.jpg')
 ;
+
+
+ insert into features(
+    feature_title,
+    feature_description,
+    feature_image_src,
+    project_id
+  )
+  VALUES
+    ('feature1', 'featuredesc1', 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit.',2),
+    ('feature2','featuredesc2' ,'Lorem r adipiscing elit.',3),
+    ('feature3','featuredesc3' ,'Lorem ipsum dolor sit amet, consec tetur .',1),
+    ('feature4','featuredesc4' ,'Lorem ipsum dolor sit amet, consec tetur .',4)
+  ;
